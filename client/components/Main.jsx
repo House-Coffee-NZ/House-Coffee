@@ -23,7 +23,7 @@ class Main extends React.Component {
                     <div className="mainLinks">
                         <div>
                         <a href="https://rocket-espresso.co.nz/" target="_blank">
-                            <img src="./img/Rocket.jpg" alt="Rocket Logo" className="brandPic"></img>
+                            <img src="./img/rocket.jpg" alt="Rocket Logo" className="brandPic"></img>
                         </a>
                         <a href="https://rocket-espresso.co.nz/" target="_blank" className="learnButton">ROCKET COFFEE MACHINES</a>
                         </div>
