@@ -608,7 +608,7 @@ function (_React$Component) {
         href: "https://domobar.co.nz/espresso-machines/domobar-super-espresso-machine/overview",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/domobar.webp",
+        src: "./img/domobar.jpeg",
         alt: "Domobar Logo",
         className: "brandPic"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
