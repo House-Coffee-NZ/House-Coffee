@@ -142,7 +142,7 @@ function (_React$Component) {
       }, "WHO ARE HOUSE COFFEE?", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " WHAT DO WE DO?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "aboutBody"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/about.webp",
+        src: "./img/about.jpg",
         alt: "About Picture",
         className: "aboutPic"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

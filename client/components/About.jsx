@@ -15,7 +15,7 @@ class About extends React.Component {
               <div className="mainTitle borderBottom">WHO ARE HOUSE COFFEE?<br/> WHAT DO WE DO?
               </div>
               <div className="aboutBody">
-              <img src="./img/about.webp" alt="About Picture" className="aboutPic"></img>     
+              <img src="./img/about.jpg" alt="About Picture" className="aboutPic"></img>     
               <div className="mainText">
               House Coffee started 15 years ago selling the best espresso  machines and grinders 
               available in New Zealand. We pride ourselves in providing top notch service and 
