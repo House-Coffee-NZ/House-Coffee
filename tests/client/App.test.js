@@ -21,11 +21,6 @@ test('<App> root has className of app', () => {
 test('page header includes fruit', () => {
   const wrapper = render(<App />)
   const h1 = wrapper.find('h1')
-  expect(h1.text()).toMatch(/Fruit/)
+  expect(h1.text()).toMatch(/House Coffee/)
 })
 
-test('renders an <li> for each fruit', () => {
-  const wrapper = mount(<App />)
-  wrapper.setState({fruits: ['orange', 'persimmons', 'kiwi fruit']})
-  expect(wrapper.find('li').length).toBe(3)
-})
