@@ -54,12 +54,16 @@ ul {
   /* --- Header --- */
 
 .topBannerMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-color: black;
     font-weight: 500;
     height: 10%;
     width: auto;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -89,6 +93,8 @@ ul {
 }
 
   .headerPic {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.570)),to(rgba(255, 255, 255, 0.570))), url(./img/housecoffee-header.jpg);
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.570),rgba(255, 255, 255, 0.570)), url(./img/housecoffee-header.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, 0.570),rgba(255, 255, 255, 0.570)), url(./img/housecoffee-header.jpg);
     background-color: white;
     background-size: cover;
@@ -96,20 +102,34 @@ ul {
     background-position: top;
     background-attachment: fixed;
     height: 450px;
+    width: auto;
     max-width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   /* --- Nav --- */
 
 .navFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 100%;
     width: auto;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 
 
 }  
@@ -118,17 +138,26 @@ ul {
     height: 100%;
     width: auto;
     max-width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
 } 
 
 .navLink {
     height: 100%;
     width: auto;
     max-width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 2%;
 }
 
@@ -185,14 +214,22 @@ color: whitesmoke;
 /* --- Main --- */
 
 .mainBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: black;
     margin-left: 1%;
     margin-right: 1%;
     background-color: #fffffff5;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     height: auto;
     margin-top: 2%;
     border-radius: 2px;
@@ -263,10 +300,14 @@ color: whitesmoke;
 }
 
 .sellTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 33px;
     font-weight: 700;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
     margin-top: 2%;
     margin-bottom: 1%;
@@ -337,9 +378,14 @@ color: whitesmoke;
 }
 
 .mainLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-bottom: 3%;
     cursor: pointer;
 
@@ -363,10 +409,15 @@ color: whitesmoke;
 /* --- Footer --- */
 
 .footerFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
-    justify-content: space-between;
-    align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
     font-size: 15px;
 }
 
@@ -410,8 +461,12 @@ padding-top: 12px;
 }
 
 .footerInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 1%;
     text-align: center;
 }
@@ -443,14 +498,21 @@ padding-top: 12px;
 /* --- ABOUT --- */
 
 .aboutBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: black;
     margin-left: 1%;
     margin-right: 1%;
     background-color: #fffffff5;
     height: auto;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 2%;
     border-radius: 2px;
     margin-bottom: 2%;
@@ -498,15 +560,23 @@ box-shadow: 10px 10px 5px #ccc;
 /* --- CONTACT ---*/
 
 .contactBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     color: black;
     margin-left: 1%;
     margin-right: 1%;
     background-color: #fffffff5;
     height: auto;
-    flex-direction: row;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 2%;
     border-radius: 2px;
     margin-bottom: 2%;
@@ -548,9 +618,16 @@ box-shadow: 10px 10px 5px #ccc;
 }
 
 .contactInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size: 22px;
     font-weight: 500;
     margin-left: 10%;
@@ -569,10 +646,14 @@ box-shadow: 10px 10px 5px #ccc;
 }
 
 .infoTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 30px;
     font-weight: 700;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 2%;
     margin-bottom: 3%;
 }
