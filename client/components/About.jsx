@@ -31,7 +31,7 @@ class About extends React.Component {
               <br /><br /> 
               All our beans are fairly sourced from Guatemala, Columbia and Sumatra. The 
               importer has developed a long relationship with each grower and purchases the 
-              entire seasons production each year. 
+              entire seasons production each year.
               While not certified organic, nearly all coffee is grown at altitude using organic practises which make most coffee production naturally organic.
               </div>
               </div>
