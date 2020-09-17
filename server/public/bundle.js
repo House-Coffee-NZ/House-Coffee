@@ -669,7 +669,7 @@ function (_React$Component) {
         href: "https://www.katipocoffee.co.nz/",
         target: "_blank",
         className: "links centerText"
-      }, "PRODUCTS"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+      }, "SHOP"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         to: "/contact",
         className: "links"
       }, "CONTACT"))));

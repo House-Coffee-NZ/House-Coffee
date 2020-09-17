@@ -13,7 +13,7 @@ class Nav extends React.Component {
 <div className="navLink">
     <Link to="/" className="links">HOME</Link>
     <Link to="/about" className="links">ABOUT</Link>
-    <a href="https://www.katipocoffee.co.nz/" target="_blank" className="links centerText">PRODUCTS</a>
+    <a href="https://www.katipocoffee.co.nz/" target="_blank" className="links centerText">SHOP</a>
     <Link to="/contact" className="links">CONTACT</Link>
 </div>
 </div>
