@@ -746,7 +746,7 @@ box-shadow: 10px 10px 5px #ccc;
     color: rgb(46, 39, 39);
     text-align: center;
     display: inline-block;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 7%;
     margin-bottom: 2%;
@@ -765,12 +765,33 @@ box-shadow: 10px 10px 5px #ccc;
     display: flex;
     width: 100%;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 25px;
     justify-content: center;
     align-items: flex-end;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.coffeeBuy {
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 3%;
 }
 
 .pricesTitle {
     font-size: 17px;
+}
+
+.coffeeLinks {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 3%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(199, 167, 109);
 }
 

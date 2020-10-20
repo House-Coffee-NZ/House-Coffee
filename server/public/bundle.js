@@ -712,6 +712,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Header */ "./client/components/Header.jsx");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Footer */ "./client/components/Footer.jsx");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
 
 
 
@@ -751,9 +753,7 @@ function (_React$Component) {
         className: "aboutPic"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "coffeeInfo"
-      }, "A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "coffeePrices"
-      }, "PRICES:", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "500g - $20")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, "A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "coffeeWrapper"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: "./img/redback.jpg",
@@ -761,7 +761,12 @@ function (_React$Component) {
         className: "aboutPic"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "coffeeInfo"
-      }, "A coffee with bite of salted caramel notes and deep, satisfying flavour.")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+      }, "A coffee with bite of salted caramel notes and deep, satisfying flavour.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "coffeePrices"
+      }, "PRICES: ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), " 500g - $20"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
+        to: "/contact",
+        className: "coffeeLinks learnButton"
+      }, "CLICK HERE FOR INFORMATION ON HOW TO CONTACT WARREN TO PURCHASE OUR GREAT TASTING COFFEE"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);
 
