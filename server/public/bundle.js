@@ -741,7 +741,7 @@ function (_React$Component) {
         className: "mainBody"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "sellTitle borderBottomSolid"
-      }, "Choose from our great coffee range!")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+      }, "Choose from our great coffee range!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);
 

@@ -13,6 +13,17 @@ class Products extends React.Component {
                     <div className="mainTitle borderBottom">House Coffee Products</div>
                     <div className="mainBody">
                         <div className="sellTitle borderBottomSolid">Choose from our great coffee range!</div>
+                        {/* wrapper */}
+                        <div>
+                            {/* pic one */}
+                        <div>
+
+                        </div>
+                        {/* pic two */}
+                        <div>
+
+                        </div>
+                        </div>
 
                 
                     </div>
