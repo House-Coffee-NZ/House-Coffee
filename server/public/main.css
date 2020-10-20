@@ -394,7 +394,6 @@ color: whitesmoke;
         flex-wrap: wrap;
     margin-bottom: 3%;
     cursor: pointer;
-
 }
 
 .brandPic {
@@ -723,3 +722,55 @@ box-shadow: 10px 10px 5px #ccc;
 .contactInformation {
     margin-top: 2.1%;
 }
+
+/* ---- Products ---- */ 
+
+.coffeeBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+
+.coffeeWrapper {
+    max-width: 30%;
+    margin-top: 2%;
+}
+
+.coffeeInfo {
+    color: rgb(46, 39, 39);
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 450px) { 
+.coffeeInfo {   
+    font-size: 14px;
+    margin-bottom: 9%;
+}
+}
+
+.coffeePrices {
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.pricesTitle {
+    font-size: 17px;
+}
+
