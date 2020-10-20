@@ -726,15 +726,19 @@ box-shadow: 10px 10px 5px #ccc;
 
 /* ---- Products ---- */ 
 
+.coffeeWrapper {
+    max-width: 80%;
+}
+
 .coffeeInfo {
     background-color: rgba(32, 24, 24, 0.966);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     margin-top: 2%;
     margin-bottom: 2%;

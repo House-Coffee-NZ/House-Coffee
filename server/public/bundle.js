@@ -743,7 +743,9 @@ function (_React$Component) {
         className: "sellTitle borderBottomSolid"
       }, "Choose from our great coffee range!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "mainLinks"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "coffeeWrapper"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: "./img/blackwidow.jpg",
         alt: "Blackwidow Coffee Pic",
         className: "aboutPic"
