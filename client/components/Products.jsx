@@ -15,11 +15,11 @@ class Products extends React.Component {
                         <div className="sellTitle borderBottomSolid">Choose from our great coffee range!</div>
                         {/* wrapper */}
                         <div>
-                            {/* pic one */}
+                        <img src="./img/blackwidow.jpg" alt="Blackwidow Coffee Pic" className="aboutPic"></img>  
                         <div>
 
                         </div>
-                        {/* pic two */}
+                        <img src="./img/redback.jpg" alt="Redback Coffee Pic" className="aboutPic"></img>  
                         <div>
 
                         </div>
