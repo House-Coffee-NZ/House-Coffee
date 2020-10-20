@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 
+import { HashRouter as NavLink, Link } from 'react-router-dom';
+
 class Products extends React.Component {
 
 
@@ -23,9 +25,8 @@ class Products extends React.Component {
                             <img src="./img/redback.jpg" alt="Redback Coffee Pic" className="aboutPic"></img>
                             <p className="coffeeInfo">A coffee with bite of salted caramel notes and deep, satisfying flavour.</p>                           
                         </div>
-                        <p className="coffeePrices">PRICES: <br />1kg - $40<br /> 500g - $20</p>
-                        <div className="coffeeBuy">If you would like to purchase some of our great tasting coffee, please&nbsp;<a className="coffeeLinks" href="tel:021842319">phone&nbsp;</a> or&nbsp;<a className="coffeeLinks" href="mailto:housecoffee@xtra.co.nz">email&nbsp;</a> Warren for an invoice.
-                        </div>
+                        <div className="coffeePrices">PRICES: <br />1kg - $40<br /> 500g - $20</div>
+                        <Link to="/contact" className="coffeeLinks learnButton">CLICK HERE FOR INFORMATION ON HOW TO CONTACT WARREN TO PURCHASE OUR GREAT TASTING COFFEE</Link>
                     </div>
                 </div>
                 <Footer />

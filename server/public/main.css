@@ -778,8 +778,6 @@ box-shadow: 10px 10px 5px #ccc;
     font-weight: 600;
     font-size: 20px;
     justify-content: center;
-    align-items: flex-end;
-    text-align: center;
     margin-top: 3%;
 }
 
@@ -788,6 +786,12 @@ box-shadow: 10px 10px 5px #ccc;
 }
 
 .coffeeLinks {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 3%;
+    justify-content: center;
+    text-align: center;
     color: rgb(199, 167, 109);
 }
 
