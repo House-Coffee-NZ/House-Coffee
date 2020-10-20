@@ -742,7 +742,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "sellTitle borderBottomSolid"
       }, "Choose from our great coffee range!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "mainLinks"
+        className: "coffeeBody"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "coffeeWrapper"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -751,11 +751,17 @@ function (_React$Component) {
         className: "aboutPic"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "coffeeInfo"
-      }, "A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40 500g - $20")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+      }, "A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "coffeePrices"
+      }, "PRICES:", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "500g - $20")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "coffeeWrapper"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: "./img/redback.jpg",
         alt: "Redback Coffee Pic",
         className: "aboutPic"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "coffeeInfo"
+      }, "A coffee with bite of salted caramel notes and deep, satisfying flavour.")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);
 
