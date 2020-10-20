@@ -741,11 +741,15 @@ function (_React$Component) {
         className: "mainBody"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "sellTitle borderBottomSolid"
-      }, "Choose from our great coffee range!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+      }, "Choose from our great coffee range!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "mainLinks"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: "./img/blackwidow.jpg",
         alt: "Blackwidow Coffee Pic",
         className: "aboutPic"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "coffeeInfo"
+      }, "A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40 500g - $20")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: "./img/redback.jpg",
         alt: "Redback Coffee Pic",
         className: "aboutPic"
