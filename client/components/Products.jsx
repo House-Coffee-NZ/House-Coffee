@@ -8,10 +8,15 @@ class Products extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div>
+               
                     <Header />
+                    <div className="mainTitle borderBottom">House Coffee Products</div>
+                    <div className="mainBody">
+                        <div className="sellTitle borderBottomSolid">Choose from our great coffee range!</div>
+
+                
+                    </div>
                     <Footer />
-                </div>
             </React.Fragment>
 
         )
