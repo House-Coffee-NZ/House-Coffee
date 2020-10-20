@@ -751,9 +751,7 @@ function (_React$Component) {
         className: "aboutPic"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "coffeeInfo"
-      }, "A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "coffeePrices"
-      }, "PRICES:", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "500g - $20")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, "A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "coffeeWrapper"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: "./img/redback.jpg",
@@ -761,7 +759,17 @@ function (_React$Component) {
         className: "aboutPic"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "coffeeInfo"
-      }, "A coffee with bite of salted caramel notes and deep, satisfying flavour.")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+      }, "A coffee with bite of salted caramel notes and deep, satisfying flavour.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "coffeePrices"
+      }, "PRICES: ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), " 500g - $20"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "coffeeBuy"
+      }, "If you would like to purchase some of our great tasting coffee, please\xA0", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "coffeeLinks",
+        href: "tel:021842319"
+      }, "phone\xA0"), " or\xA0", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "coffeeLinks",
+        href: "mailto:housecoffee@xtra.co.nz"
+      }, "email\xA0"), " Warren for an invoice."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);
 

@@ -18,14 +18,13 @@ class Products extends React.Component {
                         <div className="coffeeWrapper">
                             <img src="./img/blackwidow.jpg" alt="Blackwidow Coffee Pic" className="aboutPic"></img>
                             <p className="coffeeInfo">A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!</p>
-                            <p className="coffeePrices">PRICES:<br /><br />
-                        1kg - $40<br />
-                        500g - $20</p>
                         </div>
                         <div className="coffeeWrapper">
                             <img src="./img/redback.jpg" alt="Redback Coffee Pic" className="aboutPic"></img>
-                            <p className="coffeeInfo">A coffee with bite of salted caramel notes and deep, satisfying flavour.</p>
-                            
+                            <p className="coffeeInfo">A coffee with bite of salted caramel notes and deep, satisfying flavour.</p>                           
+                        </div>
+                        <p className="coffeePrices">PRICES: <br />1kg - $40<br /> 500g - $20</p>
+                        <div className="coffeeBuy">If you would like to purchase some of our great tasting coffee, please&nbsp;<a className="coffeeLinks" href="tel:021842319">phone&nbsp;</a> or&nbsp;<a className="coffeeLinks" href="mailto:housecoffee@xtra.co.nz">email&nbsp;</a> Warren for an invoice.
                         </div>
                     </div>
                 </div>
