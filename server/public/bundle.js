@@ -766,7 +766,13 @@ function (_React$Component) {
       }, "PRICES: ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), " 500g - $20"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/contact",
         className: "coffeeLinks learnButton"
-      }, "CLICK HERE FOR INFORMATION ON HOW TO CONTACT WARREN TO PURCHASE OUR GREAT TASTING COFFEE"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+      }, "CLICK HERE FOR INFORMATION ON HOW TO CONTACT WARREN TO PURCHASE OUR GREAT TASTING COFFEE")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "sellTitle borderBottomSolid"
+      }, "ESPRESSO MACHINE ATTACHMENTS"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: "https://pdfhost.io/v/kEc~pleFd_MOTTA_Metallurgica_Pricelist_August_2020_a.pdf",
+        target: "_blank",
+        className: "coffeeLinks learnButton"
+      }, "CLICK HERE TO SEE THE METALLURGICA MOTTA RANGE AND PRICELIST"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);
 

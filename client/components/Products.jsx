@@ -28,6 +28,13 @@ class Products extends React.Component {
                         <div className="coffeePrices">PRICES: <br />1kg - $40<br /> 500g - $20</div>
                         <Link to="/contact" className="coffeeLinks learnButton">CLICK HERE FOR INFORMATION ON HOW TO CONTACT WARREN TO PURCHASE OUR GREAT TASTING COFFEE</Link>
                     </div>
+                    <div className="sellTitle borderBottomSolid">ESPRESSO MACHINE ATTACHMENTS</div>
+                        <div>
+                        <a href="https://pdfhost.io/v/kEc~pleFd_MOTTA_Metallurgica_Pricelist_August_2020_a.pdf" target="_blank" className="coffeeLinks learnButton">
+                            CLICK HERE TO SEE THE METALLURGICA MOTTA RANGE AND PRICELIST
+                            </a> 
+                        </div>
+
                 </div>
                 <Footer />
             </React.Fragment>
