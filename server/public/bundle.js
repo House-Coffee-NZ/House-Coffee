@@ -765,14 +765,24 @@ function (_React$Component) {
         className: "coffeePrices"
       }, "PRICES: ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), " 500g - $20"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/contact",
-        className: "coffeeLinks learnButton"
+        className: "coffeeLinks lightBackground"
       }, "CLICK HERE FOR INFORMATION ON HOW TO CONTACT WARREN TO PURCHASE OUR GREAT TASTING COFFEE")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "sellTitle borderBottomSolid"
-      }, "ESPRESSO MACHINE ATTACHMENTS"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      }, "ESPRESSO MACHINE ATTACHMENTS"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "metalWrapper"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "./img/metal.jpg",
+        alt: "Metallurgica Motta Logo",
+        className: "metalLogo"
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "metalInfo"
+      }, "We source a range of espresso machine attachments to use with your espresso machine. Click on the link below to see the range and contact Warren on how to purchase any of the items listed!")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "maxWidth"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "https://pdfhost.io/v/kEc~pleFd_MOTTA_Metallurgica_Pricelist_August_2020_a.pdf",
         target: "_blank",
-        className: "coffeeLinks learnButton"
-      }, "CLICK HERE TO SEE THE METALLURGICA MOTTA RANGE AND PRICELIST"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+        className: "coffeeLinks lightBackground marginBottom"
+      }, "CLICK HERE TO SEE THE METALLURGICA MOTTA RANGE AND PRICELIST")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);
 
