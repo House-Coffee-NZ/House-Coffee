@@ -13,16 +13,18 @@ class Products extends React.Component {
 
                 <Header />
                 <div className="mainTitle borderBottom ">House Coffee Products</div>
-                <div className="mainBody">
+                <div className="productsBody">
                     <div className="coffeeBody">
                     <div className="sellTitle borderBottomSolid marginTop">Choose from our great coffee range!</div>
+                        <div className="coffeeFlex">
                         <div className="coffeeWrapper">
-                            <img src="./img/blackwidow.jpg" alt="Blackwidow Coffee Pic" className="aboutPic"></img>
+                            <img src="./img/blackwidow.jpg" alt="Blackwidow Coffee Pic" className="coffeePic"></img>
                             <p className="coffeeInfo">A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!</p>
                         </div>
                         <div className="coffeeWrapper">
-                            <img src="./img/redback.jpg" alt="Redback Coffee Pic" className="aboutPic"></img>
+                            <img src="./img/redback.jpg" alt="Redback Coffee Pic" className="coffeePic"></img>
                             <p className="coffeeInfo">A coffee with bite of salted caramel notes and deep, satisfying flavour.</p>
+                        </div>
                         </div>
                         <div className="coffeePrices">
                             <p className="priceTitle">PRICES:&nbsp;</p>

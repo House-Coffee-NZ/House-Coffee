@@ -725,6 +725,34 @@ box-shadow: 10px 10px 5px #ccc;
 
 /* ---- Products ---- */ 
 
+.productsBody {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        color: black;
+        margin-left: 1%;
+        margin-right: 1%;
+        background-color: #fffffff5;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        height: auto;
+        margin-top: 2%;
+        border-radius: 2px;
+        margin-bottom: 2%;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+    }
+
+
 .coffeeBody {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -739,26 +767,65 @@ box-shadow: 10px 10px 5px #ccc;
     background-color: #dfdbdbf5;
 }
 
+@media screen and (max-width: 800px) { 
+    .coffeeBody {   
+        padding-bottom: 10%;
+    }
+    }
+
 .coffeeTitleColor {
     background-color: #dfdbdbf5;
 }
 
+.coffeeFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+@media screen and (max-width: 800px) { 
+    .coffeeFlex {
+      flex-direction: column;
+      align-items: center;
+    }
+    }
+
 .coffeeWrapper {
-    max-width: 30%;
+    max-width: 50%;
     margin-top: 2%;
+}
+
+.coffeePic {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+    margin-top: 2%;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
 .coffeeInfo {
     color: rgb(46, 39, 39);
     text-align: center;
-    display: inline-block;
     font-size: 15px;
     font-weight: 500;
     margin-top: 7%;
     margin-bottom: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 80%;
 }
+
 
 @media screen and (max-width: 450px) { 
 .coffeeInfo {   
@@ -770,13 +837,12 @@ box-shadow: 10px 10px 5px #ccc;
 .coffeePrices {
     display: flex;
     width: 100%;
-
     font-weight: 600;
     font-size: 25px;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-left: 15%;
@@ -788,6 +854,14 @@ box-shadow: 10px 10px 5px #ccc;
     font-size: 30px;
     margin-bottom: 1%;
 }
+
+@media screen and (max-width: 800px) { 
+    .priceTitle {   
+        font-size: 40px;
+        margin-bottom: 9%;
+        margin-top: 4%;
+    }
+    }
 
 .price {
     margin-top: 1%;
@@ -906,6 +980,12 @@ box-shadow: 10px 10px 5px #ccc;
     .metalWrapper {
         max-width: 60%;
     }
+
+    @media screen and (max-width: 800px) { 
+        .metalWrapper  {   
+            padding-bottom: 5%;
+        }
+        }
 
     .marginTop {
         margin-top: 4%;
