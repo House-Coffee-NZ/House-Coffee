@@ -814,6 +814,18 @@ box-shadow: 10px 10px 5px #ccc;
     -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
+@media screen and (max-width: 390px) { 
+    .coffeePic {
+        height: 243px;
+    }
+    }
+
+    @media screen and (max-width: 340px) { 
+        .coffeePic {
+            height: 207px;
+        }
+        }    
+
 .coffeeInfo {
     color: rgb(46, 39, 39);
     text-align: center;
@@ -831,6 +843,14 @@ box-shadow: 10px 10px 5px #ccc;
 .coffeeInfo {   
     font-size: 14px;
     margin-bottom: 9%;
+}
+}
+
+@media screen and (max-width: 390px) { 
+    .coffeeInfo {   
+     margin-left: 5%;
+     margin-right: 5%;
+     max-width: 100%;
 }
 }
 
@@ -863,14 +883,44 @@ box-shadow: 10px 10px 5px #ccc;
     }
     }
 
+    @media screen and (max-width: 340px) { 
+        .priceTitle {
+            font-size: 30px;
+        }
+        }       
+
 .price {
     margin-top: 1%;
 }
+
+@media screen and (max-width: 340px) { 
+    .price {
+        font-size: 20px;
+    }
+    }    
 
 .priceInfo {
     margin-top: 5%;
     font-size: 22px;
 }
+
+
+
+@media screen and (max-width: 420px) { 
+    .priceInfo {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        font-size: 18px;
+    }
+    }  
+
+@media screen and (max-width: 340px) { 
+    .priceInfo {
+        margin-top: 12%;
+        margin-bottom: 12%;
+        font-size: 18px;
+    }
+    }    
 
 .coffeeBuy {
     display: flex;
@@ -928,6 +978,12 @@ box-shadow: 10px 10px 5px #ccc;
         height: 120px;
     }
     }
+
+    @media screen and (max-width: 340px) { 
+        .metalLogo {
+            height: 97px;
+        }
+        } 
 
     .darkBackground {
         background-color: rgb(146, 116, 61);
