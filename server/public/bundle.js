@@ -763,7 +763,15 @@ function (_React$Component) {
         className: "coffeeInfo"
       }, "A coffee with bite of salted caramel notes and deep, satisfying flavour.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "coffeePrices"
-      }, "PRICES: ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "1kg - $40", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), " 500g - $20"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "priceTitle"
+      }, "PRICES:\xA0"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "price"
+      }, "1kg - $40\xA0"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "price"
+      }, "500g - $20\xA0"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "priceInfo"
+      }, "To purchase some of our great tasting coffee, contact Warren on the link below to get in touch")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/contact",
         className: "coffeeLinks lightBackground"
       }, "CLICK HERE")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
