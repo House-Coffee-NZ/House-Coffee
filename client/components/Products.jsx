@@ -12,11 +12,10 @@ class Products extends React.Component {
             <React.Fragment>
 
                 <Header />
-                <div className="mainTitle borderBottom">House Coffee Products</div>
+                <div className="mainTitle borderBottom ">House Coffee Products</div>
                 <div className="mainBody">
-                    <div className="sellTitle borderBottomSolid">Choose from our great coffee range!</div>
-                    {/* wrapper */}
                     <div className="coffeeBody">
+                    <div className="sellTitle borderBottomSolid marginTop">Choose from our great coffee range!</div>
                         <div className="coffeeWrapper">
                             <img src="./img/blackwidow.jpg" alt="Blackwidow Coffee Pic" className="aboutPic"></img>
                             <p className="coffeeInfo">A dark roasted coffee blend taken beyond second crack to develop a rich, grunty hit!</p>
@@ -29,21 +28,22 @@ class Products extends React.Component {
                             <p className="priceTitle">PRICES:&nbsp;</p>
                             <p className="price">1kg - $40&nbsp;</p>
                             <p className="price">500g - $20&nbsp;</p>
-                            <p className="priceInfo">To purchase some of our great tasting coffee, contact Warren on the link below to get in touch</p>
+                            <p className="priceInfo">To purchase some of our great tasting coffee, contact Warren on the link below to get in touch!</p>
                         </div>
                         <Link to="/contact" className="coffeeLinks lightBackground">CLICK HERE</Link>
                     </div>
-                    <div className="sellTitle borderBottomSolid">ESPRESSO MACHINE ATTACHMENTS</div>
+                    <div className="sellTitle borderBottomSolid">ESPRESSO MACHINE ACCESSORIES</div>
                     <div className="metalWrapper">
                         <img src="./img/metal.jpg" alt="Metallurgica Motta Logo" className="metalLogo"></img>
                         <div>
-                            <p className="metalInfo">We source a range of espresso machine attachments to use with your espresso machine. Click on the link below to
+                            <p className="metalInfo">We source a range of espresso machine accessories to use with your espresso machine.<br /><br /> Click on the links below to
                         see the range and contact Warren on how to purchase any of the items listed!</p>
                         </div>
                         <div className="coffeeLinks">
                             <a href="https://pdfhost.io/v/kEc~pleFd_MOTTA_Metallurgica_Pricelist_August_2020_a.pdf" target="_blank" className="coffeeLinks lightBackground marginBottom">
-                                CLICK HERE
+                                RANGE
                             </a>
+                            <Link to="/contact" className="coffeeLinks lightBackground marginBottom">CONTACT</Link>
                         </div>
                     </div>
                 </div>
