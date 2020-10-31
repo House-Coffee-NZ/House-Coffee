@@ -918,14 +918,14 @@ box-shadow: 10px 10px 5px #ccc;
     
     @media screen and (max-width: 450px) { 
     .metalLogo {
-        margin-top: 10%;
-        height: 240px;
+        margin-top: 4%;
+        height: 128px;
     }
     }
     
     @media screen and (max-width: 390px) { 
     .metalLogo {
-        height: 220px;
+        height: 120px;
     }
     }
 
