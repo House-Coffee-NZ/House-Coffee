@@ -27,9 +27,9 @@ class Products extends React.Component {
                         </div>
                         </div>
                         <div className="coffeePrices">
-                            <p className="priceTitle">PRICES:&nbsp;</p>
-                            <p className="price">1kg - $40&nbsp;</p>
-                            <p className="price">500g - $20&nbsp;</p>
+                            <p className="priceTitle">PRICES:</p>
+                            <p className="price">1kg - $40</p>
+                            <p className="price">500g - $20</p>
                             <p className="priceInfo">To purchase some of our great tasting coffee, contact Warren on the link below to get in touch!</p>
                         </div>
                         <Link to="/contact" className="coffeeLinks lightBackground">CLICK HERE</Link>

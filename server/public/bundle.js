@@ -766,11 +766,11 @@ function (_React$Component) {
         className: "coffeePrices"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "priceTitle"
-      }, "PRICES:\xA0"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "PRICES:"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "price"
-      }, "1kg - $40\xA0"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "1kg - $40"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "price"
-      }, "500g - $20\xA0"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "500g - $20"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "priceInfo"
       }, "To purchase some of our great tasting coffee, contact Warren on the link below to get in touch!")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/contact",
