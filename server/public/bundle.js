@@ -600,7 +600,7 @@ function (_React$Component) {
         href: "https://domobar.co.nz/espresso-machines/domobar-super-espresso-machine/overview",
         target: "_blank",
         className: "learnButton domoButton"
-      }, "DOMORBAR ESPRESSO MACHINES")))));
+      }, "DOMOBAR ESPRESSO MACHINES")))));
     }
   }]);
 
