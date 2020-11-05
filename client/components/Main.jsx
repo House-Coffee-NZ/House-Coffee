@@ -38,7 +38,7 @@ class Main extends React.Component {
                         <img src="./img/domobar.jpeg" alt="Domobar Logo" className="brandPic">
                         </img>
                         </a>    
-                        <a href="https://domobar.co.nz/espresso-machines/domobar-super-espresso-machine/overview" target="_blank" className="learnButton domoButton">DOMORBAR ESPRESSO MACHINES</a>
+                        <a href="https://domobar.co.nz/espresso-machines/domobar-super-espresso-machine/overview" target="_blank" className="learnButton domoButton">DOMOBAR ESPRESSO MACHINES</a>
                         </div>
                     </div>
                 </div>
